@@ -31,7 +31,7 @@ const Footer = () => {
                     <Link to="https://www.facebook.com/suhagrana84/" target="_blank">
                         <FaFacebook size={20} style={{color:"#fff", marginRight:"1rem", cursor:"pointer"}} />
                     </Link>
-                    <Link to="www.linkedin.com/in/suhag-rana" target="_blank">
+                    <Link to="https://www.linkedin.com/in/suhag-rana/" target="_blank">
                         <FaLinkedin size={20} style={{color:"#fff", marginRight:"1rem", cursor:"pointer"}} />
                     </Link>
                     <Link to="https://www.youtube.com/@techwebsolution3925" target="_blank">
