@@ -1,0 +1,71 @@
+.pricing-card{
+    padding: 0 1rem 5rem 1rem;
+    width: 100%;
+    background-color: #000;
+}
+.card-container{
+    max-width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+.pricing{
+    text-align: center;
+    margin-bottom: 2.5rem;
+    text-transform: capitalize;
+    color: #00df9a;
+}
+.card{
+    padding: 2rem;
+    border: 1px solid #eee;
+    text-align: center;
+    color: #fafafa;
+    width: 100%;
+}
+.card:hover{
+    background-color: #141414;
+}
+.card .bar{
+    border: 1px solid #eee;
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+
+}
+.card h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.card .dollar{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+.card p{
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+.card .btn{
+    margin: 1.2rem auto 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    width: 90%;
+}
+
+@media screen and (max-width: 640px){
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .card .btn{
+        width: 60%;
+    }
+}

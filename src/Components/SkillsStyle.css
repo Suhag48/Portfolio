@@ -1,0 +1,140 @@
+.container{
+    padding: 0rem 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: #00df9a;
+}
+.skills{
+    position: relative;
+    max-width: 70%;
+    width: 100%;
+    background: #1a1919;
+    margin: 0 15px;
+    padding: 10px 25px;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+}
+.skills .skill-box{
+    width: 100%;
+    margin: 28px 0;
+}
+.skill-box .title{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.skill-box .skill-bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background-color: rgba(0,0,0,0.1);
+}
+.skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    border-radius: 6px;
+    background: #cbd5e0;
+    animation: progress 0.4s ease-in-out forwards;
+}
+.skill-per.html{
+    width: 90%;
+    animation-delay: 0.1s;
+}
+.skill-per.css{
+    width: 65%;
+    animation-delay: 0.2s;
+}
+.skill-per.sass{
+    width: 90%;
+    animation-delay: 0.3s;
+}
+.skill-per.tailwind{
+    width: 60%;
+    animation-delay: 0.4s;
+}
+.skill-per.js{
+    width: 70%;
+    animation-delay: 0.5s;
+}
+.skill-per.python{
+    width: 40%;
+    animation-delay: 0.6s;
+}
+.skill-per.react{
+    width: 70%;
+    animation-delay: 0.7s;
+}
+.skill-per.git{
+    width: 60%;
+    animation-delay: 0.8s;
+}
+.skill-per.photoshop{
+    width: 40%;
+    animation-delay: 0.9s;
+}
+.skill-per.typing{
+    width: 45%;
+    animation-delay: 1s;
+}
+@keyframes progress {
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #000;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: #cbd5e0;
+    z-index: 1;
+    font-size: 11px;
+}
+.tooltip::before{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background: #cbd5e0;
+    transform: translateX(-50%) rotate(45deg);
+}
+.flex-grid{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 900px){
+    .skills{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    .skills{
+        max-width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .skills .skill-box{
+        margin: 20px 0;
+    }
+}
