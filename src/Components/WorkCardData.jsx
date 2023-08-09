@@ -1,6 +1,6 @@
 import Pic from "../assets/Trippy.png"
 import Pic2 from "../assets/Data-Finance.png"
-import Pic3 from "../assets/Home-Open-Pro.png"
+import Pic3 from "../assets/OpenPro.png"
 
 const WorkCardData = [
     {
