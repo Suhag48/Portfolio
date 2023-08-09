@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./FooterStyle.css"
 
 import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa"
@@ -27,9 +28,15 @@ const Footer = () => {
             <div className="right">
                 <h4>Connect With Social Media</h4>
                 <div className="social">
-                    <FaFacebook size={20} style={{color:"#fff", marginRight:"1rem", cursor:"pointer"}} />
-                    <FaLinkedin size={20} style={{color:"#fff", marginRight:"1rem", cursor:"pointer"}} />
-                    <FaYoutube size={20} style={{color:"#fff", marginRight:"1rem", cursor:"pointer"}} />
+                    <Link to="https://www.facebook.com/suhagrana84/" target="_blank">
+                        <FaFacebook size={20} style={{color:"#fff", marginRight:"1rem", cursor:"pointer"}} />
+                    </Link>
+                    <Link to="www.linkedin.com/in/suhag-rana" target="_blank">
+                        <FaLinkedin size={20} style={{color:"#fff", marginRight:"1rem", cursor:"pointer"}} />
+                    </Link>
+                    <Link to="https://www.youtube.com/@techwebsolution3925" target="_blank">
+                        <FaYoutube size={20} style={{color:"#fff", marginRight:"1rem", cursor:"pointer"}} />
+                    </Link>
                 </div>
             </div>
         </div>
