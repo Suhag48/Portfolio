@@ -1,6 +1,6 @@
 import "./HeroImgStyle.css"
 import IntroImg from "../assets/pic5.png"
-import resume from "../assets/resume/Suhag_Rana-Frontend_Developer1.pdf"
+import resume from "../assets/resume/Suhag_Rana-Frontend_Developer.pdf"
 
 import { Link } from "react-router-dom"
 import Typewriter from 'typewriter-effect';
