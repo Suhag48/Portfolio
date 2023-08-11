@@ -1,5 +1,6 @@
 import "./HeroImgStyle.css"
 import IntroImg from "../assets/pic5.png"
+import resume from "../assets/resume/Suhag_Rana-Frontend_Developer1.pdf"
 
 import { Link } from "react-router-dom"
 import Typewriter from 'typewriter-effect';
@@ -25,7 +26,7 @@ const HeroImg = () => {
         </p>
         <div className="btns">
           <Link className="btn" to="/project">Projects</Link>
-          <Link className="btn btn-light" to="">Resume</Link>
+          <Link className="btn btn-light" to={resume}>Resume</Link>
         </div>
       </div>
     </div>
