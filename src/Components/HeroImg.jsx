@@ -25,7 +25,7 @@ const HeroImg = () => {
           </span> Developer.
         </p>
         <div className="btns">
-          <Link className="btn" to="/project">Projects</Link>
+          <a className="btn" href="/project">Projects</a>
           <a className="btn btn-light" href={resume}>Resume</a>
         </div>
       </div>
