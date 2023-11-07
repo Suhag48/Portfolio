@@ -1,6 +1,7 @@
 import Pic from "../assets/Trippy.png"
 import Pic2 from "../assets/Data-Finance.png"
 import Pic3 from "../assets/OpenPro.png"
+import Pic6 from "../assets/pic6.png"
 
 const WorkCardData = [
     {
@@ -23,6 +24,13 @@ const WorkCardData = [
         text : "Open Pro is a Landing page. This website is made with Html, Tailwind Css, ReactJs, and Aos Animation.",
         view : "https://moonlit-palmier-cfb2d5.netlify.app/",
         source : "https://github.com/Suhag48/OpenPro"
+    },
+    {
+        imgsrc : Pic6,
+        title : "Industry Landing Page",
+        text : "Industry Landing Page is a animated Landing page. This website is made with Html5, Css3, ReactJs, React Slick Carousel and Aos Animation.",
+        view : "https://cheery-daifuku-fbe567.netlify.app/",
+        source : "https://github.com/Suhag48/Industry_LandingPage"
     }
 
 ]

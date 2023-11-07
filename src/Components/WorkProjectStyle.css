@@ -10,7 +10,7 @@
 .project-container{
  display: grid;
  grid-template-columns: repeat(3, 1fr);
- column-gap: 10px;
+ gap: 10px;
  max-width: 1240px;
  margin: auto;
 }
